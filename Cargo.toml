@@ -21,7 +21,7 @@ rand = "0.7"
 tempfile = "3"
 base64 = "0.10"
 derive_builder = "0.8"
-which = "3.0"
+which = { git = "https://github.com/lyricwulf/which-rs" }
 ureq = { version = "0.11", optional = true }
 directories = { version = "2.0", optional = true }
 zip = { version = "^0.5.3", optional = true }
